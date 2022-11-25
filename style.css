@@ -122,11 +122,20 @@ h1{
 @media (min-width:992px){
     .items{
         width: 32%;
-    }
+        
+     }
         #box{
             visibility: hidden;
         }
+        #active-tgl{
+            display: none;
+            
+        }
+       
+        
 }
+
+
 @media (max-width:991px){
     .items{
        
@@ -138,6 +147,9 @@ h1{
     }
     #box{
         visibility: hidden;
+    }
+    #active-tgl{
+        display: none;
     }
 }
 

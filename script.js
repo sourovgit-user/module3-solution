@@ -6,7 +6,4 @@ function mobileMenu() {
       document. getElementById('active-tgl').style.display ='block'; 
     }
   }
-  
-   
-  
 document.getElementById('box').addEventListener('click',mobileMenu);
